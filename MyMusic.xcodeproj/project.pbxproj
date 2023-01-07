@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0239886229695404006CE631 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0239886129695404006CE631 /* PlayerViewController.swift */; };
 		02985047296926270065DF07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02985046296926270065DF07 /* AppDelegate.swift */; };
 		02985049296926270065DF07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02985048296926270065DF07 /* SceneDelegate.swift */; };
 		0298504B296926270065DF07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0298504A296926270065DF07 /* ViewController.swift */; };
 		0298504E296926270065DF07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0298504C296926270065DF07 /* Main.storyboard */; };
 		029850502969262B0065DF07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0298504F2969262B0065DF07 /* Assets.xcassets */; };
 		029850532969262B0065DF07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029850512969262B0065DF07 /* LaunchScreen.storyboard */; };
+		0298505E2969290B0065DF07 /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0298505B296929090065DF07 /* song1.mp3 */; };
+		0298505F2969290B0065DF07 /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0298505C2969290A0065DF07 /* song2.mp3 */; };
+		029850602969290B0065DF07 /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0298505D2969290A0065DF07 /* song3.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0239886129695404006CE631 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		02985043296926270065DF07 /* MyMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02985046296926270065DF07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02985048296926270065DF07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		0298504F2969262B0065DF07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		029850522969262B0065DF07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		029850542969262B0065DF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0298505B296929090065DF07 /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
+		0298505C2969290A0065DF07 /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = "<group>"; };
+		0298505D2969290A0065DF07 /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song3.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		02985045296926270065DF07 /* MyMusic */ = {
 			isa = PBXGroup;
 			children = (
+				0298505A296928DA0065DF07 /* Audio */,
 				02985046296926270065DF07 /* AppDelegate.swift */,
 				02985048296926270065DF07 /* SceneDelegate.swift */,
 				0298504A296926270065DF07 /* ViewController.swift */,
+				0239886129695404006CE631 /* PlayerViewController.swift */,
 				0298504C296926270065DF07 /* Main.storyboard */,
 				0298504F2969262B0065DF07 /* Assets.xcassets */,
 				029850512969262B0065DF07 /* LaunchScreen.storyboard */,
 				029850542969262B0065DF07 /* Info.plist */,
 			);
 			path = MyMusic;
+			sourceTree = "<group>";
+		};
+		0298505A296928DA0065DF07 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				0298505B296929090065DF07 /* song1.mp3 */,
+				0298505C2969290A0065DF07 /* song2.mp3 */,
+				0298505D2969290A0065DF07 /* song3.mp3 */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +145,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0298505E2969290B0065DF07 /* song1.mp3 in Resources */,
 				029850532969262B0065DF07 /* LaunchScreen.storyboard in Resources */,
+				029850602969290B0065DF07 /* song3.mp3 in Resources */,
 				029850502969262B0065DF07 /* Assets.xcassets in Resources */,
 				0298504E296926270065DF07 /* Main.storyboard in Resources */,
+				0298505F2969290B0065DF07 /* song2.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0298504B296926270065DF07 /* ViewController.swift in Sources */,
+				0239886229695404006CE631 /* PlayerViewController.swift in Sources */,
 				02985047296926270065DF07 /* AppDelegate.swift in Sources */,
 				02985049296926270065DF07 /* SceneDelegate.swift in Sources */,
 			);
